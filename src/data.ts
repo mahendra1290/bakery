@@ -78,7 +78,7 @@ const products: Product[] = [
     name: 'Blueberry Muffin',
     price: 20,
     description: 'Moist muffin packed with juicy blueberries.',
-    image: bakery2,
+    image: bakery,
   },
   {
     id: 4,

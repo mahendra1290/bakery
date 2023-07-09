@@ -69,7 +69,7 @@ const ProductRoute = () => {
       {items.length > 0 && (
         <div
           className={clsx(
-            'sm:hidden border h-16 border-black flex items-center justify-between p-2 shadow-md bg-white fixed transition-all duration-300 ease-in-out left-5 right-5 rounded-md',
+            'sm:hidden border h-16 border-black flex items-center justify-between py-2 px-4 shadow-md bg-white fixed transition-all duration-300 ease-in-out left-5 right-5 rounded-md',
             hide ? '-bottom-20 opacity-0' : 'bottom-10 opacity-100',
           )}
         >

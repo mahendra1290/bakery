@@ -2,7 +2,7 @@
 import { createContext, useCallback, useState } from 'react';
 import { Product } from '../data';
 import { Option } from '../components/OptionGroup';
-import { addItemToCart, getCartTotalPrice, removeItemFromCart } from '../utils/cartUtils';
+import { addItemToCart, removeItemFromCart } from '../utils/cartUtils';
 
 export interface CartItem {
   id: string;
