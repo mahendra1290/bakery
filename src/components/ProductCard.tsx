@@ -47,7 +47,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
     <>
       <div className='flex flex-row items-center md:items-stretch p-2 md:p-0 md:flex-col border shadow-md font-serif rounded-lg relative sm:hover:scale-105 transition-transform sm:hover:shadow-lg'>
         <img
-          className='object-cover h-32 md:h-auto aspect-square rounded-t-lg'
+          className='object-cover h-32 md:h-auto aspect-square rounded-t-lg md:mb-4'
           src={image}
           alt='img'
         />

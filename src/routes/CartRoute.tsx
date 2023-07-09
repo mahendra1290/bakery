@@ -33,7 +33,7 @@ const CartRoute = () => {
           </div>
           <div className='flex justify-between items-center'>
             <p className='text-sm'>Delivery</p>
-            <p className='text-sm'>₹0</p>
+            <p className='text-sm'>₹49</p>
           </div>
           <div className='flex justify-between items-center'>
             <p className='text-sm'>Discount</p>
@@ -41,7 +41,7 @@ const CartRoute = () => {
           </div>
           <div className='flex justify-between items-center'>
             <p className='text-sm'>Taxes</p>
-            <p className='text-sm'>₹0</p>
+            <p className='text-sm'>₹100</p>
           </div>
           <div className='flex justify-between items-center'>
             <p className='text-sm'>Total</p>
