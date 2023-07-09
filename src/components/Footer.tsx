@@ -9,7 +9,7 @@ const Footer = () => {
         by{' '}
         <a
           className='text-blue-500 hover:underline'
-          href=''
+          href='https://github.com/mahendra1290/bakery'
           target='_blank'
           rel='noopener noreferrer'
         >
