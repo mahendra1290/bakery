@@ -58,10 +58,10 @@ const OptionGroup = ({
 
   return (
     <div>
-      <p className='text-lg'>
+      <p className='text-lg mb-2'>
         {name} {required && <span className='text-red-500'>*</span>}
       </p>
-      <ul>{listOptions}</ul>
+      <ul className='space-y-2'>{listOptions}</ul>
     </div>
   );
 };
