@@ -28,6 +28,8 @@ const ProductCard = ({ product }: ProductCardProps) => {
 
   const handleRemoveFromCart = () => {
     const item = getCartItems(items, id);
+    console.log(item);
+
     if (item?.length === 1) {
       removeFromCart(item[0].id);
     } else {
