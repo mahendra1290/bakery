@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+  }
+
+  .btn-outline {
+    @apply text-red-500 bg-white border border-red-500 font-bold py-2 px-6 rounded hover:scale-105 transition-transform;
+  }
+
+  .btn-sm {
+    @apply text-sm;
+  }
+}
