@@ -8,10 +8,8 @@
   }
 
   .btn-outline {
-    @apply text-red-500 bg-white border border-red-500 font-bold py-2 px-6 rounded hover:scale-105 transition-transform;
+    @apply text-xs md:text-base text-red-500 bg-white border border-red-500 font-bold py-2 px-4 md:px-6 md:py-2 rounded hover:bg-red-50 transition-transform;
   }
 
-  .btn-sm {
-    @apply text-sm;
-  }
+
 }

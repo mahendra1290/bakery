@@ -34,8 +34,8 @@ const CartItemCard = ({ item }: CartItemProps) => {
       <div>
         <AddRemoveButton
           quantity={item.quantity}
-          onAdd={() => addToCart(item.product, 1, item.selectedOptions)}
-          onRemove={() => removeFromCart(item.itemId)}
+          onAdd={() => addToCart({ ...item, quantity: 1 })}
+          onRemove={() => removeFromCart(item.id)}
         />
         <Price className='text-right mt-1'>{item.totalPrice}</Price>
       </div>

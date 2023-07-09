@@ -52,7 +52,7 @@ const Modal = ({ open, onClose, title, children }: ModalProps) => {
     >
       <div
         className={clsx(
-          'p-4 sm:p-6 absolute transition-all duration-300 shadow-lg rounded-lg w-full max-w-md bg-white mx-auto sm:bottom-1/2 sm:left-1/2 sm:-translate-x-1/2 sm:translate-y-1/2',
+          'p-4 sm:p-6 absolute transition-all duration-300 shadow-lg rounded-lg w-full sm:max-w-md bg-white mx-auto sm:bottom-1/2 sm:left-1/2 sm:-translate-x-1/2 sm:translate-y-1/2',
           mounted && open
             ? 'bottom-0 sm:scale-100 sm:opacity-1'
             : '-bottom-full sm:scale-50 sm:opacity-0',

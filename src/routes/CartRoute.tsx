@@ -1,10 +1,11 @@
 import CartItemCard from '../components/CartItem';
 import useCart from '../hooks/useCart';
+import { getCartTotalPrice } from '../utils/cartUtils';
 
 const CartRoute = () => {
-  const { items, getCartTotal } = useCart();
+  const { items } = useCart();
 
-  const total = getCartTotal();
+  const total = getCartTotalPrice(items);
 
   if (!items.length) {
     return (
@@ -20,7 +21,7 @@ const CartRoute = () => {
       <div className='flex mt-2 items-start flex-col md:flex-row gap-2 max-w-4xl w-full mx-auto'>
         <div className='flex-1 w-full space-y-2 rounded-md'>
           {items.map((item) => (
-            <CartItemCard key={item.itemId} item={item} />
+            <CartItemCard key={item.id} item={item} />
           ))}
         </div>
         <div className='flex-1 w-full border p-2 rounded-md'>
